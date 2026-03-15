@@ -1,0 +1,41 @@
+# Ignore Maven target directory
+target/
+
+# Ignore log files
+*.log
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore test reports
+surefire-reports/
+
+# Ignore videos
+videos/
+
+# Ignore configuration files
+config.properties
+
+# Ignore other temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore LF/CRLF warnings
+*.lst
+*.html
+*.xml
+*.js
+*.css
+*.png
+*.gif
+*.webm

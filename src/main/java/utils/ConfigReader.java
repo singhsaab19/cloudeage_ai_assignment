@@ -1,0 +1,22 @@
+package utils;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ConfigReader {
+
+    private static Properties properties = new Properties();
+
+    static {
+        try {
+            FileInputStream fis = new FileInputStream("src/test/resources/config.properties");
+            properties.load(fis);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to load config file");
+        }
+    }
+
+    public static String get(String key) {
+        return properties.getProperty(key);
+    }
+}
