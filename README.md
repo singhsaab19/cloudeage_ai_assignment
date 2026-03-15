@@ -9,7 +9,10 @@ This project is a Playwright-based automation framework written in Java. It is d
 - A supported browser (e.g., Chromium)
 
 ## Setup Instructions
-1. Extract the zip file to your desired location.
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/singhsaab19/cloudeage_ai_assignment
+   ```
 2. Navigate to the project directory:
    ```bash
    cd cloudeage_assignment
@@ -21,32 +24,6 @@ This project is a Playwright-based automation framework written in Java. It is d
 4. Configure the `config.properties` file located in `src/test/resources`:
    - Set the `baseUrl` to the target application URL.
    - Add other necessary configurations as required.
-
-## Uploading to GitHub
-1. Initialize a Git repository:
-   ```bash
-   git init
-   ```
-2. Add all files to the repository:
-   ```bash
-   git add .
-   ```
-3. Commit the changes:
-   ```bash
-   git commit -m "Initial commit"
-   ```
-4. Create a new repository on GitHub (e.g., `cloudeage_assignment`).
-5. Add the remote origin:
-   ```bash
-   git remote add origin https://github.com/<your-username>/cloudeage_assignment.git
-   ```
-6. Push the code to GitHub:
-   ```bash
-   git push -u origin main
-   ```
-
-## Sharing the GitHub Link
-Once the code is pushed, share the repository link (e.g., `https://github.com/<your-username>/cloudeage_assignment`) with others.
 
 ## Usage
 1. Run the tests using Maven:
